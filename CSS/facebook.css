@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.fb{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(26, 82, 127);
+    display: flex;
+   
+    
+}
+
+.fb h1{
+    color: white;
+    
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+.fb button{
+    height: 35%;
+    width: 10%;
+    margin-top: 30px;
+    margin-left: 1%;
+    background-color: green;
+    color: white;
+}
+.blank{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.368);
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+   
+}
+.login{
+    background-color: white;
+    height: 60%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-left: 30%;
+}
+.login h1{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+}
+.login input{
+    height: 10%;
+    width: 40%;
+}
+.login button{
+    height: 45px;
+    width: 40%;
+    background-color: rgb(27, 67, 99);
+    color: white;
+}
+.link{
+    background-color:white;
+    height: 30px;
+    width: 50%;
+    display: flex;
+    margin-top: 10px;
+}
+.link h2{
+    font-size: 12px;
+    width: 35%;
+    color: aquamarine;
+    margin-left: 50px;
+}
+.link h3{
+    font-size: 12px;
+    width: 35%;
+    color: aquamarine; 
+}
+.login h4{
+    margin-bottom: 10px;
+}
